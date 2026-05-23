@@ -1,0 +1,56 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::after, *::before {
+    box-sizing: inherit;
+}
+
+
+
+/* ОБВОДКА ДЛЯ ТЕСТА! */
+
+/* * {
+    outline: 1px gray dashed;
+} */
+
+
+
+* {
+    font-family: 'Ysabeau Infant';
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+h1, h2, blockquote {
+    text-align: center;
+}
+
+h2 {
+    background-color: #ffd6e9;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+blockquote {
+    display: block;
+    background-color: #fef4be;
+    margin: auto;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+p {
+    font-weight: 300;
+}
+
+strong {
+    font-weight: 600;
+}
+
+h3 {
+    background-color:#fff9d6
+}
